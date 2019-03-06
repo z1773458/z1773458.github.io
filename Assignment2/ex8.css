@@ -1,0 +1,11 @@
+body {background-color: black;
+        color: white;
+        font-family: arial, helvetica, sans-serif;}
+
+a {background-color: #CCCCCC;}
+
+h1 {color: #CCCCCC;
+        font-family: "Times New Roman";}
+
+.news {color: red;
+        font-style: italic;}

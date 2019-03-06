@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Black Keys Fan Page</title>
+<met charset="utf-8"
+</head>
+<body>
+<h1>The Black Keys Fan Page</h1>
+<p><a href="https://theblackkeys.com/">OFFICIAL BLACK KEYS WEBSITE:</a>
+</p>
+<blockquote>
+The Black Keys are an American rock band formed in Akron, Ohio, in 2001.
+The band's raw blues rock sound draws heavily from Auerbach's blues influences
+which include Junior Kimbrough, Howlin' Wolf, and Robert Johnson.
+</blockquote>
+<h2>Members of The Black Keys</h2>
+<ul>
+	<li>Dan Auerbach</li>
+	<li>Patrick Carney</li>
+</ul>
+<h3>My Favorite 3 CDS</h3>
+	<dt>Brothers</dt>
+		<dd>Dan and Partick eventually moved to Nashville in 2010 where 
+		my favorite album emerged. The group's sixth studio album, <i>Brothers</i>,
+		was released on May 18, 2010.</dd>
+	<dt>The Big Come Up</dt>
+		<dd>The band's debut album, <i>The Big Come Up</i>, was recorded entirely
+		in Patrick's basement on an 8-track tape recorded in lo-fi and was 
+		released in May 2002. The album features a mix of eight original tracks
+		and five cover songs.</dd>
+	<dt>Thickfreakness</dt>
+		<dd>Thickfreakness was recorded in Patrick's basement in a single 14-hour
+		session in December 2002.</dd>
+	
+</body>
+</html>
