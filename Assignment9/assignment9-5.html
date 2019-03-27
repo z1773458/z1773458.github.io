@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignment 9: Chp 9 #5</title>
+<meta charset="utf-8">
+<style>
+form {font-family:Helvetica;
+      font-size:100%}
+
+label {display:block;}
+
+legend {font-weight:bold;}
+
+label {font-weight:bold;}
+
+fieldset {width:400px;}
+
+textarea{display:block;}
+
+select {display:block;}                 
+</style> 
+</head>
+<body>
+<center>
+<h1>Music Survey</h1>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+
+<label for="name">Name:</label> 
+  <input type="text" name="name" id="name" required="name"> 
+  
+<label for="email">E-Mail: </label>
+  
+  <input type="text" name="email" id="email" required="email">
+   
+<fieldset><legend>Select Your Favorite Types of Music:</legend>
+     
+     <label><input type="checkbox" name="pop" id="pop" value="yes"> Pop</label>
+     
+     <label><input type="checkbox" name="classical" id="classical"  value="yes"> Classical</label>
+     
+     <label><input type="checkbox" name="rock" id="rock"  value="yes"> Rock</label>
+     
+     <label><input type="checkbox" name="folk" id="folk"  value="yes"> Folk</label>
+     
+     <label><input type="checkbox" name="rap" id="rap"    value="yes"> Rap</label>
+     
+     <label><input type="checkbox" name="other" id="other"  value="yes"> Other</label>
+    
+</fieldset>
+    
+<fieldset><legend>Select how often you purchase Music CDs:</legend>
+      
+      <label><input type="radio" value="weekly" checked="checked"
+        name="cds" id="PurchaseWeek"> Weekly</label>
+       
+       <label><input type="radio" name="cds" value="a few CDs each year" 
+         id="fewpurchase"> A few CDs each year</label>
+       
+       <label><input type="radio" name="cds" value="monthly" 
+         id="monthlypurchase"> Monthly</label>
+       
+       <label><input type="radio" name="cds" value="never" 
+        id="neverpurchase"> Never purchase</label>
+     
+</fieldset>
+
+<label for="locations">Select the locations you listen to Music:</label>
+	<select size="3" name="locations" multiple="multiple" id="locations" >
+		
+       	<option value="at home">At home</option>
+        
+        <option value="in car">In the car</option>
+        
+        <option value="anywhere">Anywhere (MP3 Player)</option>
+	
+    </select>   
+        
+<label for="comment">What role does music play in your life?</label>
+	
+    <textarea rows="5" name="comment" id="comment" cols="60" required="comment"></textarea>
+       
+		<input type="submit" value="Submit"> <input type="reset">   
+</form>
+<footer>
+        Stephanie Perez @ <a href="https://gmail.com"> stephanieperez1518@gmail.com </a>
+</footer>
+</center>
+</body>
+</html>
