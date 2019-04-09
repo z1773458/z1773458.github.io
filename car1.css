@@ -1,0 +1,8 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #FFCCCC;
+      background-image: linear-gradient( to bottom, #FFFFFF, #FFCCCC);
+      background-repeat: no-repeat;
+      color: black;}
+
+.float {float: center;
+        border: 5px ridge rgb(34, 0, 255);}
